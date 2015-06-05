@@ -14,7 +14,7 @@ namespace ExpressionValidatorLib
     /// num is of format a or a.b, cannot be a. or .b,
     /// var type1 is of format id,
     /// var type2 is of format id.id,
-    /// ID is of format [a-zA-Z][a-zA-Z0-9_]+.
+    /// id is of format [a-zA-Z][a-zA-Z0-9_]+.
     /// 
     /// Author: X. C.
     /// Created on: 3/12/2015

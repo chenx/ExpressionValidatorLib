@@ -4,6 +4,8 @@ About
 -----------------------
 Math expression validator library in C#. Didn't find one online that fits my need, so I wrote one for use.
 
+A console program for testing purpose is also included (Tester).
+
 Usage
 ----------------------
 You can use it either as a library (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/output/Release/ExpressionValidatorLib.dll">ExpressionValidatorLib.dll</a>), or as a class file (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/ExprValidator.cs">ExprValidator.cs</a>).

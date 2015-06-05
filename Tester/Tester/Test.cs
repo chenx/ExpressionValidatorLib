@@ -47,7 +47,9 @@ namespace Tester
         /// <summary>
         /// Tests that should result in pass.
         /// </summary>
-        private void test1_good(ref ExpressionValidatorLib.ExprValidator psr, ref int total_tests, ref int passed_tests) {
+        private void test1_good(ref ExpressionValidatorLib.ExprValidator psr, 
+            ref int total_tests, ref int passed_tests) 
+        {
             string[] good_tests = new string[] {
                 "a",
                 "2",
@@ -67,7 +69,8 @@ namespace Tester
         /// <summary>
         /// Tests that should result in fail.
         /// </summary>
-        private void test1_bad(ref ExpressionValidatorLib.ExprValidator psr, ref int total_tests, ref int passed_tests)
+        private void test1_bad(ref ExpressionValidatorLib.ExprValidator psr, 
+            ref int total_tests, ref int passed_tests)
         {
             string[] bad_tests = new string[] {
                 "a.",
@@ -95,13 +98,15 @@ namespace Tester
         /// <param name="Message"></param>
         /// <param name="total_tests"></param>
         /// <param name="passed_tests"></param>
-        private void assert(string test, bool result, bool expected, string Message, ref int total_tests, ref int passed_tests)
+        private void assert(string test, bool result, bool expected, string Message, 
+            ref int total_tests, ref int passed_tests)
         {
             ++total_tests;
             bool ok = (result == expected);
             passed_tests += ok ? 1 : 0;
 
-            System.Console.Write("(" + total_tests + "): " + test + " ... expected: " + expected + " ... " + (ok ? "ok" : "failed"));
+            System.Console.Write("(" + total_tests + "): " + test + 
+                " ... expected: " + expected + " ... " + (ok ? "ok" : "failed"));
             if (verbose && Message != "") { System.Console.Write(Message + "\n"); }
             System.Console.WriteLine("");
         }

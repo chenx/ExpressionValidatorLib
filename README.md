@@ -6,6 +6,8 @@ Math expression validator library in C#. Didn't find one online that fits my nee
 
 A console program for testing purpose is also included (Tester).
 
+This is written in C#, but can be easily converted to Java. The syntax involved are almost identical.
+
 Usage
 ----------------------
 You can use it either as a library (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/output/Release/ExpressionValidatorLib.dll">ExpressionValidatorLib.dll</a>), or as a class file (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/ExprValidator.cs">ExprValidator.cs</a>).

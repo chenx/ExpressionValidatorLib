@@ -22,7 +22,11 @@ Use varType to set variable type (type1 or type2, see below).
 
 Code example:
 
-<pre>string test = "(1 + 2) * 3";  
+<pre>using System;
+using ExpressionValidatorLib;
+...
+
+string test = "(1 + 2) * 3";  
 ExpressionValidatorLib.ExprValidator psr = new ExprValidator();  
 bool isValid = psr.Validate(test);
 if (! isValid) {

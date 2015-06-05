@@ -18,7 +18,13 @@ Call method Message() to show validation message (error or trace information) in
 
 Set Trace on to show entrance of functions.
 
-Use varType to set Variable type (type1 or type2, see below).
+Use varType to set variable type (type1 or type2, see below).
+
+Code example:
+
+string test = "(1 + 2) * 3";  
+ExpressionValidatorLib.ExprValidator psr = new ExprValidator();  
+psr.Validate(test); // returns True if valid, False otherwise.   
 
 
 Implementation detail

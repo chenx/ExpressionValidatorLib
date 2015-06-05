@@ -185,6 +185,7 @@ namespace ExpressionValidatorLib
                 }
                 else
                 {
+                    msg += "\nmissing ')'" + getPos();
                     return false;
                 }
             }

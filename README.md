@@ -22,9 +22,9 @@ E = T + E | T - E | T
 T = F * T | F / T | F  
 F = (E) | num | var  
 
-num is of format a or a.b, cannot be a. or .b,  
-var type1 is of format id,  
-var type2 is of format id.id,  
+num is of format a or a.b, cannot be a. or .b;  
+var type1 is of format id;  
+var type2 is of format id.id, i.e., a prefix and a suffix separated by a dot (.);  
 id is of format [a-zA-Z][a-zA-Z0-9_]+.  
 
 

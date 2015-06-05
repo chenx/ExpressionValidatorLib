@@ -2,11 +2,11 @@
 
 About
 -----------------------
-Math expression validator library in C#. Cannot find one on line, so I wrote one for use.
+Math expression validator library in C#. Didn't find one online that fits my need, so I wrote one for use.
 
 Usage
 ----------------------
-You can use it either as a library (ExpressionValidatorLib.dll), or as a class file (ExprValidator.cs).
+You can use it either as a library (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/output/Release/ExpressionValidatorLib.dll">ExpressionValidatorLib.dll</a>), or as a class file (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/ExprValidator.cs">ExprValidator.cs</a>).
 
 Implementation detail
 ------------

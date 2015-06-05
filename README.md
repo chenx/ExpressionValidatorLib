@@ -12,6 +12,15 @@ Usage
 ----------------------
 You can use it either as a library (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/output/Release/ExpressionValidatorLib.dll">ExpressionValidatorLib.dll</a>), or as a class file (<a href="https://github.com/chenx/ExpressionValidatorLib/blob/master/ExpressionValidatorLib/ExpressionValidatorLib/ExprValidator.cs">ExprValidator.cs</a>).
 
+To use the validator, create an object and call method Validate(). It will return either True or False.
+
+Call method Message() to show validation message (error or trace information) in detail.
+
+Set Trace on to show entrance of functions.
+
+Use varType to set Variable type (type1 or type2, see below).
+
+
 Implementation detail
 ------------
 

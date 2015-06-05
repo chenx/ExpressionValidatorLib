@@ -27,10 +27,16 @@ var type1 is of format id,
 var type2 is of format id.id,  
 ID is of format [a-zA-Z][a-zA-Z0-9_]+.  
 
-
+Author
 ------------------
 Author: X. C.  
 Created on: 3/12/2015  
 Last modified: 6/2/2015  
-License: BSD/MIT/Apache  
-Dev environment: VS.NET 2010
+
+License
+---------------
+BSD/MIT/Apache  
+
+Dev environment
+-------------
+VS.NET 2010

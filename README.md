@@ -24,7 +24,7 @@ Code example:
 
 <pre>string test = "(1 + 2) * 3";  
 ExpressionValidatorLib.ExprValidator psr = new ExprValidator();  
-bool isValid = psr.Validate(test); // returns True if valid, False otherwise.   
+bool isValid = psr.Validate(test);
 if (! isValid) {
     System.Console.WriteLine("validation error: " + psr.Message());
 }

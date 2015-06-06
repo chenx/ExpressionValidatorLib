@@ -45,13 +45,12 @@ namespace ExpressionValidatorLib
         /// <summary>
         /// Constructor.
         /// </summary>
-        public ExprValidator()
-	    {
+        public ExprValidator() {
             TRACE = false;
             //TRACE = true;
 
             varType = VarType.VarType1;
-	    }
+	}
 
 
         /// <summary>
@@ -109,8 +108,7 @@ namespace ExpressionValidatorLib
         /// Validate E.
         /// </summary>
         /// <returns>Boolean value on whether validation succeeds.</returns>
-        private bool E()
-        {
+        private bool E() {
             if (TRACE) msg += "\nEnter E";
 
             if (!T()) return false;
@@ -132,8 +130,7 @@ namespace ExpressionValidatorLib
         /// Validate T.
         /// </summary>
         /// <returns>Boolean value on whether validation succeeds.</returns>
-        private bool T()
-        {
+        private bool T() {
             if (TRACE) msg += "\nEnter T";
 
             if (!F()) return false;

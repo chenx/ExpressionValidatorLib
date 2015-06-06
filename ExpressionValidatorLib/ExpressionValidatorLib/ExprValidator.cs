@@ -47,8 +47,6 @@ namespace ExpressionValidatorLib
         /// </summary>
         public ExprValidator() {
             TRACE = false;
-            //TRACE = true;
-
             varType = VarType.VarType1;
 	}
 

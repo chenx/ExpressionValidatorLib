@@ -2,7 +2,7 @@
 
 About
 -----------------------
-Math expression validator library in C#. Didn't find one online that fits my need, so I wrote one for use.
+Math expression validator library in C#. 
 
 A console program for testing purpose is also included (Tester).
 

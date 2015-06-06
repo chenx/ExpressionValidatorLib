@@ -98,7 +98,17 @@ namespace ExpressionValidatorLib
         /// Ignore space in input string.
         /// </summary>
         private void ignore_space() {
-            while (p < len && expr[p] == ' ') ++p;
+            while (p < len && is_space(expr[p])) ++p;
+        }
+        
+
+        /// <summary>
+        /// Return true if c is a space character.
+        /// </summary>
+        /// <param name="c"></param>
+        /// <returns>Boolean value on whether input is a space character.</returns>
+        private bool is_space(char c) {
+            return c == " " || c == "\t" || c == "\n";
         }
 
 

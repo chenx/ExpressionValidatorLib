@@ -36,7 +36,7 @@ namespace ExpressionValidatorLib
             set;
         }
 
-        private bool TRACE   // Flag to trace function entrance.
+        public bool TRACE   // Flag to trace function entrance.
         {
             get;
             set;

@@ -24,7 +24,7 @@ namespace ExpressionValidatorLib
     /// </summary>
     public class ExprValidator
     {        
-        private string expr; // keep a copy of input expression string, for display error position.
+        private string expr; // input math expression string.
         private int p;       // position of current character.
         private int len;     // length of input expression string.
         private string msg;  // error message.
